@@ -105,7 +105,7 @@ function FileQandAArea(props: FileQandAAreaProps) {
       <div className="space-y-2">
         <input
           className="border rounded border-gray-200 w-full py-1 px-2"
-          placeholder="e.g. What were the key takeaways from the Q1 planning meeting?"
+          placeholder="e.g. How do I service a 2019 Toyota Hilux?"
           name="search"
           ref={questionRef}
           onKeyDown={handleEnterInSearchBar}
